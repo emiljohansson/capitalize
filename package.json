@@ -2,10 +2,16 @@
   "name": "capitalize",
   "version": "1.0.0",
   "description": "Capitalize each word in a string or array.",
-  "main": "index.js",
+  "repository": "emiljohansson/capitalize",
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
     "test": "ava --verbose"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "capitalize",
     "word",
@@ -14,5 +20,8 @@
     "array"
   ],
   "author": "Emil Johansson <emiljohansson@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "*"
+  }
 }
