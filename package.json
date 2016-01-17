@@ -1,6 +1,6 @@
 {
   "name": "capitalize",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Capitalize each word in a string or array.",
   "main": "index.js",
   "scripts": {
